@@ -16,8 +16,8 @@ export const Header = () => {
         </div>
         <Navbar />
       </div>
-      <div className="flex flex-col lg:flex-row h-full w-full 2xl:max-w-[1233px]">
-        <div className="w-full flex justify-center items-center lg:hidden pt-6">
+      <div className="flex flex-col lg:flex-row h-full w-full 2xl:max-w-[1233px]  lg:pt-10 2xl:pt-0">
+        <div className="w-full flex justify-center items-center lg:hidden pt-6 ">
           <img
             src={imageSectionHeader}
             alt="man"
@@ -33,14 +33,13 @@ export const Header = () => {
 
           <p className="text-gray-300 text-sm xl:text-base leading-[18px] md:leading-6 my-3 w-full md:w-[70%] lg:w-[420px] xl:w-[539px] ">
             Profissional formado na área de Sistemas de Informação, com
-            experiência na área de desenvolvimento de Front-End para aplicações
-            Web.
+            experiência em desenvolvimento Front-End para aplicações Web.
           </p>
           <button className="bg-[#b2d932] flex w-[160px] md:w-[164px] h-[34px] xl:w-[236px] xl:h-[48px] rounded  md:py-6 md:px-32 tracking-wide text-sm md:text-lg mt-2 md:mt-3 lg:mt-5  font-semibold justify-center items-center">
             <a href="#contact">Contato</a>
           </button>
         </div>
-        <div className="w-full hidden lg:flex justify-center items-end">
+        <div className="w-full hidden lg:flex justify-center items-center">
           <img
             src={imageSectionHeader}
             alt="man"

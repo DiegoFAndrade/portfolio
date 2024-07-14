@@ -15,12 +15,12 @@ export const Skills = () => {
           {skillsData.map((skill, index) => (
             <div
               key={index}
-              className="w-[124px] md:w-[180px] px-1 pt-3 pb-1 md:px-0 lg:w-[200px] md:h-[150px] flex flex-col justify-center items-center text-center md:gap-2 border rounded border-[#b2d932] "
+              className="w-[124px] md:w-[180px] px-1 pt-3 pb-1 md:px-0 lg:w-[200px] md:h-[130px] flex flex-col justify-center items-center text-center md:gap-2 border rounded border-[#b2d932] "
             >
               <img
                 src={skill.icon}
                 alt={skill.title}
-                className="w-[32px] h-[32px] md:w-[48px] md:h-[48px] lg:w-[60px] lg:h-[60px]"
+                className="w-[32px] h-[32px] md:w-[40px] md:h-[40px]"
               />
 
               <div>
