@@ -18,7 +18,7 @@ const menuOptions = [
   },
   {
     id: 3,
-    label: "Software Skills",
+    label: "Habilidades",
     path: "#skills",
   },
   {

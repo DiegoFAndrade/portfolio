@@ -9,13 +9,13 @@ export const Skills = () => {
     >
       <div className="w-full flex flex-col justify-center gap-4 2xl:max-w-[1233px]">
         <h1 className="text-white text-center font-bold text-[20px] md:text-[32px] leading-[24px] md:leading-[40px] lg:pb-4">
-          Software Skills
+          Habilidades
         </h1>
-        <div className="flex flex-wrap items-center justify-between lg:justify-center gap-2 md:gap-12">
+        <div className="flex flex-wrap items-center justify-center md:justify-between lg:justify-center gap-4 md:gap-12">
           {skillsData.map((skill, index) => (
             <div
               key={index}
-              className="w-[124px]  md:w-[180px] p-1 md:p-0 lg:w-[200px] md:h-[130px] flex flex-col justify-center items-center text-center md:gap-2 border rounded border-[#b2d932]"
+              className="w-[124px] md:w-[180px] px-1 pt-3 pb-1 md:px-0 lg:w-[200px] md:h-[150px] flex flex-col justify-center items-center text-center md:gap-2 border rounded border-[#b2d932] "
             >
               <img
                 src={skill.icon}
@@ -24,7 +24,7 @@ export const Skills = () => {
               />
 
               <div>
-                <span className="text-white text-xs md:text-base truncate w-[124px]">
+                <span className="text-white text-xs md:text-base truncate w-[124px] ">
                   {skill.title}
                 </span>
                 <p className="text-[#d3f85a] text-xs md:text-sm hidden md:block">

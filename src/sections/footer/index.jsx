@@ -26,7 +26,7 @@ export const Footer = () => {
             <MdOutlineEmail className="w-[28.55px] h-auto" />
           </a>
         </div>
-        <p className="text-white text-xs text-center  flex gap-1">
+        <p className="text-white text-[10px] md:text-xs text-center  flex gap-1">
           © {new Date().getFullYear()} Diego Fernandes Andrade{" "}
           <span className="hidden md:block">|</span>{" "}
           <br className="flex md:hidden" />

@@ -47,9 +47,7 @@ export const Projects = () => {
                   className="w-full h-auto rounded pb-1.5"
                 />
                 <p className="font-bold"> {project.title}</p>
-                <p className="text-gray-300 text-justify">
-                  {project.description}
-                </p>
+                <p className="text-gray-300 ">{project.description}</p>
               </div>
             </a>
           ))}
