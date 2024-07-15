@@ -27,7 +27,7 @@ export const Header = () => {
 
         <div className=" flex flex-col items-center lg:block text-center lg:text-left h-full pt-4 lg:pt-12 2xl:pt-32">
           <h1 className=" w-full md:w-[520px] lg:w-[480px] xl:w-[528px] 2xl:w-[509px] font-bold text-[26px] md:text-[36px] xl:text-[46px] leading-[28px] md:leading-[38px] xl:leading-[47px] text-white">
-            Olá, Eu sou um Desenvolvedor{" "}
+            Olá, eu sou um Desenvolvedor{" "}
             <span className="text-[#b2d932]">Front-End</span>
           </h1>
 

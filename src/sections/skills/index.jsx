@@ -20,6 +20,12 @@ export const Skills = () => {
               <img
                 src={skill.icon}
                 alt={skill.title}
+                style={{
+                  backgroundColor:
+                    skill.title === "Next.js" ? "white" : "transparent",
+                  borderRadius: skill.title === "Next.js" ? "10%" : "",
+                  padding: skill.title === "Next.js" ? "4px" : "",
+                }}
                 className="w-[32px] h-[32px] md:w-[40px] md:h-[40px]"
               />
 
